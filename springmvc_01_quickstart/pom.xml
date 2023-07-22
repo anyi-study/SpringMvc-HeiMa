@@ -10,6 +10,7 @@
   <packaging>war</packaging>
 
   <dependencies>
+<!--    版本要对应 不可更改-->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
@@ -21,6 +22,7 @@
       <artifactId>spring-webmvc</artifactId>
       <version>5.2.10.RELEASE</version>
     </dependency>
+    <!--    版本要对应-->
   </dependencies>
   <build>
     <plugins>
